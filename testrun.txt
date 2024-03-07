@@ -1,0 +1,12 @@
+ian@ian-Latitude-E7440:~$ gfortran testheb4.f08 -ffree-form
+ian@ian-Latitude-E7440:~$ ./a.out
+ בוקר טוב
+ian@ian-Latitude-E7440:~$ cat testheb4.f08
+program good_morning_hebrew
+    implicit none
+
+    ! Make sure your editor saves this file in UTF-8 encoding
+    print *, 'בוקר טוב'
+
+end program good_morning_hebrew
+ian@ian-Latitude-E7440:~$ 
